@@ -2,7 +2,6 @@ import React, { createContext, useState } from "react";
 import ArrayStore from "devextreme/data/array_store";
 import DataSource from "devextreme/data/data_source";
 import notify from "devextreme/ui/notify";
-import { orders } from "./data";
 export const AppContext = createContext();
 const AppContextProvider = (props) => {
   const [state, setState] = useState({

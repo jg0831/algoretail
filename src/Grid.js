@@ -12,7 +12,6 @@ const Grid = () =>{
         <DataGrid
           id="grid-container"
           dataSource={getMovies()}
-          keyExpr="ID"
           showBorders={true}
         >
           <Column dataField="title" caption="Title" width={125} />
